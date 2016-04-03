@@ -8,5 +8,5 @@ sudo pip install --upgrade pip
 sudo pip install pandas pyzmq jinja2 tornado jsonschema jupyter sqlalchemy MySql_python matplotlib psycopg2 redshift-sqlalchemy findspark
 
 # Install Pelican
-sudo pip install pelican
+sudo pip install pelican markdown
 echo "VM setup complete!"
