@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   config.vm.define "pelican" do |box|
     box.vm.network "private_network", ip: "192.168.11.15"
     box.vm.network "forwarded_port", guest: 8888, host: 8888
-    box.vm.network "forwarded_port", guest: 9200, host: 9200
+    box.vm.network "forwarded_port", guest: 8000, host: 8000
     box.vm.hostname = "vm-pelican"
     box.vm.synced_folder "../../notebooks", "/notebooks"
     box.vm.provider "virtualbox" do |vbb|
