@@ -6,6 +6,8 @@ AUTHOR = u'Torsten Bittner'
 SITENAME = u'torstenbittner.com'
 SITEURL = ''
 
+THEME = '../pelican-themes/pelican-bootstrap3'
+
 PATH = 'content'
 
 TIMEZONE = 'US/Pacific'
