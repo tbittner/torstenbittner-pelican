@@ -14,7 +14,7 @@ docutils==0.12
 feedgenerator==1.7
 findspark==0.0.5
 functools32==3.2.3.post2
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 ipykernel==4.3.1
 ipython==4.1.2
